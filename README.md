@@ -25,7 +25,7 @@ The control is based on work by other people:
 - [Arduino Pro Mini 5V (or clone)](https://docs.arduino.cc/retired/boards/arduino-pro-mini)
 - 7-Pin DIN connector splitter (1 male -> 2 female): This is used, that both the original handset and the control can be easily connected and replaced. The split cable is available under the part number: ACS-CBL-HSY  
 Alternatively it can be purchased on [amazon.de](https://www.amazon.de) or self made.
-- 7-Pin DIN connector male: This connector is connected to the Arduino and the splitter
+- 7-Pin DIN connector male: This connector is soldered to the Arduino
 
 The splitter connects the control box with the stock hand switch and Arduino.  
 ```   
