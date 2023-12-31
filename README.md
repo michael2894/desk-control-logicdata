@@ -27,6 +27,14 @@ The control is based on work by other people:
 Alternatively it can be purchased on [amazon.de](https://www.amazon.de) or self made.
 - 7-Pin DIN connector male: This connector is connected to the Arduino and the splitter
 
+The splitter connects the control box with the stock hand switch and Arduino.  
+```   
+   A                    A (male)   ... LOGICDATA control box (female)
+   |  
+  / \                   B (female) ... original hand switch (male)
+ B   C                  C (female) ... Arduino Pro Mini (male)
+```
+
 ## Functionality
 The function of the DeskController differs from that of [boris_b](https://www.mikrocontroller.net/topic/373579).  
 It is not a hardware MITM solution. The original handset always remains connected to the control unit via the splitter and therefore sends all signals.  
