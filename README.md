@@ -44,8 +44,11 @@ This occurs if, for example
 - The ISP triggers
 
 ## Schematic
+The schematic shows the connections needed from the Arduino Pro Mini to the 7-pin connector. 
+The numbering are when you view the connector on the solder side.
 ![schematic](/images/schematic.png)
 
 ## Links
 - project for a standing desk with a handset with display: [https://github.com/phord/RoboDesk](https://github.com/phord/RoboDesk)  
 - fork of RoboDesk based on the d1 mini: [https://github.com/mtfurlan/RoboDesk](https://github.com/mtfurlan/RoboDesk)  
+- Info on additional hardware: [baumeister-schack.de](https://web.archive.org/web/20231231143816/https://www.baumeister-schack.de/sites/default/files/2022-09/22_data_sheet_-steuerung-compact_de2022.pdf)
