@@ -36,12 +36,12 @@ The splitter connects the control box with the stock hand switch and Arduino.
 ```
 
 ## Functionality
-The function of the DeskController differs from that of [boris_b](https://www.mikrocontroller.net/topic/373579).  
-It is not a hardware MITM solution. The original handset always remains connected to the control unit via the splitter and therefore sends all signals.  
-The DeskController does not intervene in manual driving mode. 
+<!-- The function of the DeskController differs from that of [boris_b](https://www.mikrocontroller.net/topic/373579).   -->
+The program extends the original handset with further functions. It is not a MITM solution, but works in parallel with the original control system. The original handset always remains connected to the control unit via the splitter.  
+DeskController program does not intervene in manual driving mode.
 
 However, if a double-click is detected (2 presses <500ms), the desk drives until a programmed height is reached.  
-The current height is read from the protocol via a software serial.  
+The current height is read from the protocol via software serial.  
 Two different heights can be programmed (sitting and standing), which are stored in the EEPROM and are therefore retained even after a power loss.  
 If no values have been saved, the default values upperLimit = 115 and lowerLimit = 78 are used.
 
@@ -52,8 +52,8 @@ This occurs if, for example
 - The ISP triggers
 
 ## Schematic
-The schematic shows the connections needed from the Arduino Pro Mini to the 7-pin connector. 
-The numbering are when you view the connector on the solder side.
+The schematic shows the connections needed from the Arduino Pro Mini to the 7-pin connector.  
+The numbering are the same, if you view the connector on the solder side.
 ![schematic](/images/schematic.png)
 
 ## Links
